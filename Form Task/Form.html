@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: rgb(0, 0, 0);">
+
+<form action="/action_page.php">
+ <fieldset style="background-color: rgb(179, 250, 227);">
+  <legend style="background-color: rgb(32, 239, 170);">Personal Data</legend>
+  <br><br><br>
+  <form action="/action_page.php" >
+    <fieldset style="background-color: rgb(15, 124, 88);">
+     <legend  style="background-color: rgb(87, 174, 145); height: 60px;"><p style="text-align: center;">Your Name</p></legend>
+     <br><br>
+     <table>
+    <tr>
+        <td><label for="fname" >First name:</label></td>
+        <td><input type="text" id="fname" name="fname" placeholder="Ex: youssef"></td>
+    </tr>
+
+    <tr>
+        <td><label for="lname" >Last name:</label></td>
+        <td><input type="text" id="lname" name="lname" placeholder="Ex: Metwally"></td>
+    </tr>
+    </table>
+    </fieldset>
+   </form>
+  <table>
+    <tr><br><br>
+        <td> <label for="Number">Your Phone:</label></td>
+        <td> <input type="tel" id="number" name="number"></td>
+    </tr>
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td> <input type="email" id="email" name="email"></td>
+    </tr>
+    <tr>
+        <td><label for="password">Password:</label></td>
+        <td> <input type="password" id="password" name="password"></td>
+    </tr>
+    <tr>
+        <td> <label for="password">re-Password:</label></td>
+        <td> <input type="password" id="password" name="password"></td>
+    </tr>
+    <tr>
+        <td><br><br><label><input type="radio" name="gender" value="male">Male</label><br>
+        <label><input type="radio" name="gender" value="female">Female</label></td>
+    </tr>
+    <tr>
+        
+        <td><br><label><input type="checkbox" name="education" value="student">Student</label><br>
+        <label><input type="checkbox" name="education" value="graduated">Graduated</label></td>
+    </tr>
+    <tr>
+        <td><br><label for="university">University:</label></td>
+        <td><br><select id="university" name="university">
+          <option value="">Select a University</option>
+          <option value="AUC">AUC</option>
+          <option value="GUC">GUC</option>
+          <option value="BUE">BUE</option>`
+        </select></td>
+    </tr>
+    <tr>
+        <td><br><button
+            type="submit"
+            style="
+              background-color: black;
+              color: white;
+              padding: 10px;
+              border-radius: 20%;
+            "
+          >
+            Submit
+          </button></td>
+    </tr>
+ </fieldset>
+</form>
+
+</body>
+</html>
