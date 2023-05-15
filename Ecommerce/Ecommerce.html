@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <title>Product 1</title>
+    <style>
+        .head{
+            font-size: 35px;
+            color: rgb(3, 3, 129);
+            border-bottom: 2px solid rgb(0, 0, 0);
+            font-weight: bold;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        .image-container {
+            /* margin: 20px; */
+            border: 2px solid blue;
+            width: 250px;
+            height: auto;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        td:first-child, span {
+            font-weight: bold;
+        }
+        table {
+            border: 1px solid black;
+        }
+        td, th {
+            border: 1px solid black;
+        }
+        /* .center-image {
+            display: block;
+            margin: auto; 
+        }  alternative way, would be applied to the images' parent div*/
+
+    </style>
+
+</head>
+<body>
+    <header class="head"> Product Name </header>
+    <main>
+        <div>
+            <img class ="image-container" src="Cat.jpg" alt="Image of a cat!">
+        </div>
+        <div>
+        <span>Short Description</span>
+            <ul>
+                <li>Cat Feature1</li>
+                <li>Cat Feature2</li>
+                <li>Cat Feature3</li>
+                <li>Cat Feature4</li>
+            </ul>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>Dimensions</td>
+                    <td>100 X 100</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>500g</td>
+                </tr>
+                <tr>
+                    <td>Weight</td>
+                    <td>500g</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td>100$</td>
+                </tr>
+            </table>
+        </div>
+        <button>Add to Cart</button>
+    </main>
+</body>
