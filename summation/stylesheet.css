@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27vh;
+    background-color: #f3f4ed;
+}
+input {
+    margin: 2vh;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+button {
+    background-color: #f25f5c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+    background-color: #e76f51;
+}
