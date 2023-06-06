@@ -1,0 +1,142 @@
+*{
+  margin:0;
+  padding:0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+    flex-direction: column;
+    width: 80vw;
+
+}
+.container h1 {
+  color:#009879;
+  font-size: 50px;
+  margin-bottom: 45px;
+  
+}
+.container .header {
+  border-bottom: #009879 solid 3px;
+  display: inline-block;
+  margin-bottom: 70px;
+  width: 100%;
+  text-align: center;
+  
+
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+}
+.form .FormInput{
+  display: flex;
+  flex-direction: column;
+  width:75%;
+  margin-bottom: 10px;
+}
+.form input {
+  height: 40px;
+  border-width:0;
+  background-color: rgb(234, 234, 234);
+  margin-top: 10px;
+  text-indent: 20px;
+  font-weight: bold;
+}
+
+.form .FormButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+
+.form .FormButton button {
+  width: 10vw;
+  height: 45px;
+  background-color: #009879;
+  color: white;
+  font-weight: bold;
+  font-size:large
+}
+.form .FormButton .Add {
+  border-radius: 10px 10px 0 0;
+  border-width:0;
+  /* transition: transform 0.2s ease-in-out; */
+}
+.form .FormButton .Sort {
+  border-width:0;
+  /* transition: transform 0.2s ease-in-out; */
+}
+.form .FormButton .Add:hover,.form .FormButton .Sort:hover,.form .FormButton .Delete:hover {
+  /* transform: scale(1.2); */
+  background-color: rgb(0, 120, 100);
+}
+
+.form .FormButton .Delete {
+
+ border-radius: 0 0 10px 10px;
+ border-width:0;
+ transition: transform 0.2s ease-in-out;
+}
+
+
+table {
+    width: 100%;
+    font-size: 0.9em;
+    margin: 25px 0;
+    border-collapse: collapse;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+table thead {
+  background-color:#009879;
+  color:white;
+  text-align: left;
+  font-weight: bold;
+}
+td, th {
+  padding: 12px 15px;
+  width:200px
+}
+td:first-child, th:first-child {
+  width:50px
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+  color: #009879;
+}
+tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+table .tableButton {
+  border-width: 0;
+  background-color: #009879;
+  color: white;
+  padding: 5px;
+
+}
+table .tableButton:hover {
+  background-color: rgb(0, 120, 100);
+}
+

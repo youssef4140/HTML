@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoApp</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <header class="container">
+        <div class="header">
+            <h1>To Do Application</h1>
+        </div>
+        <div class="form">
+            <div class="FormInput">
+              <input type="text" name="TaskName" id="taskname" placeholder="Task">
+              <input type="number" name="priority" id="priority" placeholder="Priority">
+            </div>
+            <div class="FormButton">
+              <button Class="Add" onclick="taskManager.AddTask()">Add</button>
+              <button Class="Sort" onclick="taskManager.SortTask()">Sort</button>
+              <button Class="Delete" onclick="taskManager.deleteChecked()">Delete Checked</button>
+            </div>
+            
+
+        </div>
+            <table>
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Task name</th>
+                    <th>Priority</th>
+                    <th>Edit/Delete</th>
+                    <th>Status</th>
+                    <th>Delete</th>
+                    
+                  </tr>
+                </thead>
+                <tbody id="NewTask"></tbody>
+              </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
